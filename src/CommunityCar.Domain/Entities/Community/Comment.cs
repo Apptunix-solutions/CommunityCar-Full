@@ -1,9 +1,8 @@
 using CommunityCar.Domain.Entities.Identity;
-using CommunityCar.Shared.Interfaces;
 
 namespace CommunityCar.Domain.Entities.Community
 {
-    public class Comment : IAuditable
+    public class Comment
     {
         public int Id { get; set; }
         public int PostId { get; set; }
